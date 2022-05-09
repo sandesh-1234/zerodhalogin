@@ -16,5 +16,9 @@ public class Browser
 		driver.get(url);
 		return driver;
 	}
+	public void search()
+	{
+		System.out.println("add this result ");
+	}
 
 }
